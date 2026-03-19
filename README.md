@@ -3,7 +3,7 @@
     <img width="1280" height="192" alt="DeclareUI" src="https://github.com/user-attachments/assets/44918531-3b1b-4ace-bca0-db0ea99f8bc8#gh-dark-mode-only" />
 </p>
 
-# @declareui/tailwind-plugin
+# @declareuihq/tailwind-plugin
 
 Tailwind CSS integration for DeclareUI — build-time class extraction, Shadow DOM support, and design tokens bridge.
 
@@ -20,14 +20,14 @@ This plugin ensures Tailwind CSS works seamlessly with DeclareUI components:
 ## Installation
 
 ```bash
-pnpm add -D @declareui/tailwind-plugin
+pnpm add -D @declareuihq/tailwind-plugin
 ```
 
 ## Setup
 
 ```javascript
 // tailwind.config.js
-import declareui from '@declareui/tailwind-plugin';
+import declareui from '@declareuihq/tailwind-plugin';
 
 export default {
   plugins: [
@@ -67,9 +67,9 @@ template:
 
 | Package | Description |
 |:--------|:------------|
-| [`@declareui/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
-| [`@declareui/components`](https://github.com/declare-ui/components) | Pre-built component library |
-| [`@declareui/cli`](https://github.com/declare-ui/cli) | CLI tool |
+| [`@declareuihq/core`](https://github.com/declare-ui/core) | Parser, AST, and code generators |
+| [`@declareuihq/components`](https://github.com/declare-ui/components) | Pre-built component library |
+| [`@declareuihq/cli`](https://github.com/declare-ui/cli) | CLI tool |
 
 ## Contributing
 
